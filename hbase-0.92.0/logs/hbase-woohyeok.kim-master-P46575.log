@@ -1,0 +1,402 @@
+Wed Aug 29 19:50:15 JST 2018 Starting master on P46575
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+file size               (blocks, -f) unlimited
+max locked memory       (kbytes, -l) unlimited
+max memory size         (kbytes, -m) unlimited
+open files                      (-n) 256
+pipe size            (512 bytes, -p) 1
+stack size              (kbytes, -s) 8192
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 709
+virtual memory          (kbytes, -v) unlimited
+2018-08-29 19:50:15,767 INFO org.apache.hadoop.hbase.util.VersionInfo: HBase 0.92.0
+2018-08-29 19:50:15,767 INFO org.apache.hadoop.hbase.util.VersionInfo: Subversion https://svn.apache.org/repos/asf/hbase/branches/0.92 -r 1231986
+2018-08-29 19:50:15,767 INFO org.apache.hadoop.hbase.util.VersionInfo: Compiled by jenkins on Mon Jan 16 13:16:35 UTC 2012
+2018-08-29 19:50:16,147 INFO org.apache.zookeeper.server.ZooKeeperServer: Server environment:zookeeper.version=3.4.2-1221870, built on 12/21/2011 20:46 GMT
+2018-08-29 19:50:16,147 INFO org.apache.zookeeper.server.ZooKeeperServer: Server environment:host.name=10.101.25.237
+2018-08-29 19:50:16,147 INFO org.apache.zookeeper.server.ZooKeeperServer: Server environment:java.version=1.8.0_151
+2018-08-29 19:50:16,147 INFO org.apache.zookeeper.server.ZooKeeperServer: Server environment:java.vendor=Oracle Corporation
+2018-08-29 19:50:16,148 INFO org.apache.zookeeper.server.ZooKeeperServer: Server environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre
+2018-08-29 19:50:16,148 INFO org.apache.zookeeper.server.ZooKeeperServer: Server environment:java.class.path=/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../conf:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/tools.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/..:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../hbase-0.92.0-tests.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../hbase-0.92.0.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/activation-1.1.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/asm-3.1.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/avro-1.5.3.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/avro-ipc-1.5.3.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/commons-beanutils-1.7.0.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/commons-beanutils-core-1.8.0.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/commons-cli-1.2.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/commons-codec-1.4.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/commons-collections-3.2.1.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/commons-configuration-1.6.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/commons-digester-1.8.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/commons-el-1.0.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/commons-httpclient-3.1.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/commons-lang-2.5.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/commons-logging-1.1.1.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/commons-math-2.1.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/commons-net-1.4.1.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/core-3.1.1.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/guava-r09.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/hadoop-core-1.0.0.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/high-scale-lib-1.1.1.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/httpclient-4.0.1.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/httpcore-4.0.1.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jackson-core-asl-1.5.5.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jackson-jaxrs-1.5.5.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jackson-mapper-asl-1.5.5.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jackson-xc-1.5.5.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jamon-runtime-2.3.1.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jasper-compiler-5.5.23.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jasper-runtime-5.5.23.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jaxb-api-2.1.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jaxb-impl-2.1.12.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jersey-core-1.4.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jersey-json-1.4.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jersey-server-1.4.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jettison-1.1.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jetty-6.1.26.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jetty-util-6.1.26.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jruby-complete-1.6.5.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jsp-2.1-6.1.14.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jsp-api-2.1-6.1.14.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/libthrift-0.7.0.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/log4j-1.2.16.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/netty-3.2.4.Final.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/protobuf-java-2.4.0a.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/servlet-api-2.5-6.1.14.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/servlet-api-2.5.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/slf4j-api-1.5.8.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/slf4j-log4j12-1.5.8.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/snappy-java-1.0.3.2.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/stax-api-1.0.1.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/velocity-1.7.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/xmlenc-0.52.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/zookeeper-3.4.2.jar
+2018-08-29 19:50:16,148 INFO org.apache.zookeeper.server.ZooKeeperServer: Server environment:java.library.path=/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/native/Mac_OS_X-x86_64-64
+2018-08-29 19:50:16,148 INFO org.apache.zookeeper.server.ZooKeeperServer: Server environment:java.io.tmpdir=/var/folders/40/cfb4vbzj1fq_wcts1_5fdvkwh1jscl/T/
+2018-08-29 19:50:16,148 INFO org.apache.zookeeper.server.ZooKeeperServer: Server environment:java.compiler=<NA>
+2018-08-29 19:50:16,148 INFO org.apache.zookeeper.server.ZooKeeperServer: Server environment:os.name=Mac OS X
+2018-08-29 19:50:16,148 INFO org.apache.zookeeper.server.ZooKeeperServer: Server environment:os.arch=x86_64
+2018-08-29 19:50:16,148 INFO org.apache.zookeeper.server.ZooKeeperServer: Server environment:os.version=10.12.6
+2018-08-29 19:50:16,148 INFO org.apache.zookeeper.server.ZooKeeperServer: Server environment:user.name=woohyeok.kim
+2018-08-29 19:50:16,148 INFO org.apache.zookeeper.server.ZooKeeperServer: Server environment:user.home=/Users/woohyeok.kim
+2018-08-29 19:50:16,148 INFO org.apache.zookeeper.server.ZooKeeperServer: Server environment:user.dir=/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0
+2018-08-29 19:50:16,169 INFO org.apache.zookeeper.server.ZooKeeperServer: Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 datadir /tmp/hbase-woohyeok.kim/zookeeper/zookeeper_0/version-2 snapdir /tmp/hbase-woohyeok.kim/zookeeper/zookeeper_0/version-2
+2018-08-29 19:50:16,213 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: binding to port 0.0.0.0/0.0.0.0:2181
+2018-08-29 19:50:16,225 INFO org.apache.zookeeper.server.persistence.FileTxnSnapLog: Snapshotting: 0
+2018-08-29 19:50:16,362 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:64095
+2018-08-29 19:50:16,430 INFO org.apache.zookeeper.server.NIOServerCnxn: Processing stat command from /127.0.0.1:64095
+2018-08-29 19:50:16,437 INFO org.apache.zookeeper.server.NIOServerCnxn: Stat command output
+2018-08-29 19:50:16,438 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:64095 (no session established for client)
+2018-08-29 19:50:16,439 INFO org.apache.hadoop.hbase.zookeeper.MiniZooKeeperCluster: Started MiniZK Cluster and connect 1 ZK server on client port: 2181
+2018-08-29 19:50:16,474 DEBUG org.apache.hadoop.hbase.master.HMaster: Set serverside HConnection retries=100
+2018-08-29 19:50:16,685 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-3
+2018-08-29 19:50:16,686 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-3
+2018-08-29 19:50:16,686 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-3
+2018-08-29 19:50:16,686 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-3
+2018-08-29 19:50:16,686 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-3
+2018-08-29 19:50:16,686 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-3
+2018-08-29 19:50:16,686 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-3
+2018-08-29 19:50:16,687 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-3
+2018-08-29 19:50:16,687 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-3
+2018-08-29 19:50:16,687 INFO org.apache.hadoop.ipc.HBaseServer: Starting IPC Server listener on 64096
+2018-08-29 19:50:16,698 INFO org.apache.hadoop.hbase.ipc.HBaseRpcMetrics: Initializing RPC Metrics with hostName=HMasterCommandLine$LocalHMaster, port=64096
+2018-08-29 19:50:16,829 INFO org.apache.zookeeper.ZooKeeper: Client environment:zookeeper.version=3.4.2-1221870, built on 12/21/2011 20:46 GMT
+2018-08-29 19:50:16,829 INFO org.apache.zookeeper.ZooKeeper: Client environment:host.name=10.101.25.237
+2018-08-29 19:50:16,829 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.version=1.8.0_151
+2018-08-29 19:50:16,829 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.vendor=Oracle Corporation
+2018-08-29 19:50:16,829 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre
+2018-08-29 19:50:16,829 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.class.path=/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../conf:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/tools.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/..:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../hbase-0.92.0-tests.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../hbase-0.92.0.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/activation-1.1.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/asm-3.1.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/avro-1.5.3.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/avro-ipc-1.5.3.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/commons-beanutils-1.7.0.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/commons-beanutils-core-1.8.0.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/commons-cli-1.2.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/commons-codec-1.4.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/commons-collections-3.2.1.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/commons-configuration-1.6.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/commons-digester-1.8.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/commons-el-1.0.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/commons-httpclient-3.1.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/commons-lang-2.5.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/commons-logging-1.1.1.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/commons-math-2.1.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/commons-net-1.4.1.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/core-3.1.1.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/guava-r09.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/hadoop-core-1.0.0.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/high-scale-lib-1.1.1.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/httpclient-4.0.1.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/httpcore-4.0.1.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jackson-core-asl-1.5.5.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jackson-jaxrs-1.5.5.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jackson-mapper-asl-1.5.5.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jackson-xc-1.5.5.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jamon-runtime-2.3.1.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jasper-compiler-5.5.23.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jasper-runtime-5.5.23.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jaxb-api-2.1.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jaxb-impl-2.1.12.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jersey-core-1.4.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jersey-json-1.4.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jersey-server-1.4.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jettison-1.1.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jetty-6.1.26.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jetty-util-6.1.26.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jruby-complete-1.6.5.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jsp-2.1-6.1.14.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/jsp-api-2.1-6.1.14.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/libthrift-0.7.0.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/log4j-1.2.16.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/netty-3.2.4.Final.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/protobuf-java-2.4.0a.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/servlet-api-2.5-6.1.14.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/servlet-api-2.5.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/slf4j-api-1.5.8.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/slf4j-log4j12-1.5.8.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/snappy-java-1.0.3.2.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/stax-api-1.0.1.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/velocity-1.7.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/xmlenc-0.52.jar:/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/zookeeper-3.4.2.jar
+2018-08-29 19:50:16,830 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.library.path=/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0/bin/../lib/native/Mac_OS_X-x86_64-64
+2018-08-29 19:50:16,830 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.io.tmpdir=/var/folders/40/cfb4vbzj1fq_wcts1_5fdvkwh1jscl/T/
+2018-08-29 19:50:16,830 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.compiler=<NA>
+2018-08-29 19:50:16,830 INFO org.apache.zookeeper.ZooKeeper: Client environment:os.name=Mac OS X
+2018-08-29 19:50:16,830 INFO org.apache.zookeeper.ZooKeeper: Client environment:os.arch=x86_64
+2018-08-29 19:50:16,830 INFO org.apache.zookeeper.ZooKeeper: Client environment:os.version=10.12.6
+2018-08-29 19:50:16,830 INFO org.apache.zookeeper.ZooKeeper: Client environment:user.name=woohyeok.kim
+2018-08-29 19:50:16,830 INFO org.apache.zookeeper.ZooKeeper: Client environment:user.home=/Users/woohyeok.kim
+2018-08-29 19:50:16,830 INFO org.apache.zookeeper.ZooKeeper: Client environment:user.dir=/Users/woohyeok.kim/Desktop/study/hbase-study/hbase-0.92.0
+2018-08-29 19:50:16,831 INFO org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=localhost:2181 sessionTimeout=180000 watcher=master:64096
+2018-08-29 19:50:16,854 INFO org.apache.zookeeper.ClientCnxn: Opening socket connection to server /0:0:0:0:0:0:0:1:2181
+2018-08-29 19:50:16,856 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /0:0:0:0:0:0:0:1:64098
+2018-08-29 19:50:16,857 INFO org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper: The identifier of this process is 14068@P46575
+2018-08-29 19:50:16,857 INFO org.apache.zookeeper.ClientCnxn: Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2018-08-29 19:50:16,860 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /0:0:0:0:0:0:0:1:64098
+2018-08-29 19:50:16,863 INFO org.apache.zookeeper.server.persistence.FileTxnLog: Creating new log file: log.1
+2018-08-29 19:50:16,873 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x165854e27270000 with negotiated timeout 40000 for client /0:0:0:0:0:0:0:1:64098
+2018-08-29 19:50:16,873 INFO org.apache.zookeeper.ClientCnxn: Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x165854e27270000, negotiated timeout = 40000
+2018-08-29 19:50:16,892 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server Responder: starting
+2018-08-29 19:50:16,892 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server listener on 64096: starting
+2018-08-29 19:50:16,901 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 0 on 64096: starting
+2018-08-29 19:50:16,901 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 1 on 64096: starting
+2018-08-29 19:50:16,901 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 2 on 64096: starting
+2018-08-29 19:50:16,901 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 3 on 64096: starting
+2018-08-29 19:50:16,901 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 4 on 64096: starting
+2018-08-29 19:50:16,901 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 5 on 64096: starting
+2018-08-29 19:50:16,902 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 6 on 64096: starting
+2018-08-29 19:50:16,902 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 7 on 64096: starting
+2018-08-29 19:50:16,902 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 8 on 64096: starting
+2018-08-29 19:50:16,902 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 9 on 64096: starting
+2018-08-29 19:50:16,905 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=Master, sessionId=10.101.25.237,64096,1535539816711
+2018-08-29 19:50:16,909 INFO org.apache.hadoop.hbase.metrics: MetricsString added: date
+2018-08-29 19:50:16,909 INFO org.apache.hadoop.hbase.metrics: MetricsString added: hdfsUser
+2018-08-29 19:50:16,909 INFO org.apache.hadoop.hbase.metrics: MetricsString added: hdfsRevision
+2018-08-29 19:50:16,909 INFO org.apache.hadoop.hbase.metrics: MetricsString added: hdfsUrl
+2018-08-29 19:50:16,909 INFO org.apache.hadoop.hbase.metrics: MetricsString added: hdfsDate
+2018-08-29 19:50:16,909 INFO org.apache.hadoop.hbase.metrics: MetricsString added: user
+2018-08-29 19:50:16,909 INFO org.apache.hadoop.hbase.metrics: MetricsString added: version
+2018-08-29 19:50:16,909 INFO org.apache.hadoop.hbase.metrics: MetricsString added: url
+2018-08-29 19:50:16,909 INFO org.apache.hadoop.hbase.metrics: MetricsString added: hdfsVersion
+2018-08-29 19:50:16,909 INFO org.apache.hadoop.hbase.metrics: MetricsString added: revision
+2018-08-29 19:50:16,909 INFO org.apache.hadoop.hbase.metrics: new MBeanInfo
+2018-08-29 19:50:16,910 INFO org.apache.hadoop.hbase.metrics: new MBeanInfo
+2018-08-29 19:50:16,910 INFO org.apache.hadoop.hbase.master.metrics.MasterMetrics: Initialized
+2018-08-29 19:50:16,937 DEBUG org.apache.hadoop.hbase.regionserver.HRegionServer: Set serverside HConnection retries=100
+2018-08-29 19:50:16,940 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-15
+2018-08-29 19:50:16,941 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-15
+2018-08-29 19:50:16,941 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-15
+2018-08-29 19:50:16,941 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-15
+2018-08-29 19:50:16,941 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-15
+2018-08-29 19:50:16,941 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-15
+2018-08-29 19:50:16,942 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-15
+2018-08-29 19:50:16,942 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-15
+2018-08-29 19:50:16,942 INFO org.apache.hadoop.ipc.HBaseServer: Starting Thread-15
+2018-08-29 19:50:16,942 INFO org.apache.hadoop.hbase.ipc.HBaseRpcMetrics: Initializing RPC Metrics with hostName=HRegionServer, port=64099
+2018-08-29 19:50:16,942 INFO org.apache.hadoop.ipc.HBaseServer: Starting IPC Server listener on 64099
+2018-08-29 19:50:16,965 INFO org.apache.hadoop.hbase.io.hfile.CacheConfig: Allocating LruBlockCache with maximum size 241.7m
+2018-08-29 19:50:16,975 INFO org.apache.hadoop.hbase.master.ActiveMasterManager: Master=10.101.25.237,64096,1535539816711
+2018-08-29 19:50:16,996 INFO org.apache.hadoop.hbase.regionserver.ShutdownHook: Installed shutdown hook thread: Shutdownhook:RegionServer:0;10.101.25.237,64099,1535539816959
+2018-08-29 19:50:16,996 INFO org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=localhost:2181 sessionTimeout=180000 watcher=regionserver:64099
+2018-08-29 19:50:16,997 INFO org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper: The identifier of this process is 14068@P46575
+2018-08-29 19:50:16,997 INFO org.apache.zookeeper.ClientCnxn: Opening socket connection to server /0:0:0:0:0:0:0:1:2181
+2018-08-29 19:50:16,997 DEBUG org.apache.hadoop.hbase.master.SplitLogManager: timeout = 25000
+2018-08-29 19:50:16,997 DEBUG org.apache.hadoop.hbase.master.SplitLogManager: unassigned timeout = 180000
+2018-08-29 19:50:16,998 INFO org.apache.zookeeper.ClientCnxn: Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2018-08-29 19:50:16,998 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /0:0:0:0:0:0:0:1:64100
+2018-08-29 19:50:16,998 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /0:0:0:0:0:0:0:1:64100
+2018-08-29 19:50:16,999 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x165854e27270001 with negotiated timeout 40000 for client /0:0:0:0:0:0:0:1:64100
+2018-08-29 19:50:16,999 INFO org.apache.zookeeper.ClientCnxn: Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x165854e27270001, negotiated timeout = 40000
+2018-08-29 19:50:17,001 INFO org.apache.hadoop.hbase.master.SplitLogManager: found 0 orphan tasks and 0 rescan nodes
+2018-08-29 19:50:17,024 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2018-08-29 19:50:17,024 DEBUG org.apache.hadoop.hbase.util.FSUtils: Created version file at file:/tmp/hbase-woohyeok.kim/hbase set its version at:7
+2018-08-29 19:50:17,044 DEBUG org.apache.hadoop.hbase.util.FSUtils: Created cluster ID file at file:/tmp/hbase-woohyeok.kim/hbase/hbase.id with ID: e1849506-0219-4bbf-ae98-9365e4df3bdd
+2018-08-29 19:50:17,090 INFO org.apache.hadoop.hbase.master.MasterFileSystem: BOOTSTRAP: creating ROOT and first META regions
+2018-08-29 19:50:17,091 INFO org.apache.hadoop.hbase.regionserver.HRegion: creating HRegion -ROOT- HTD == {NAME => '-ROOT-', IS_META => 'true', IS_ROOT => 'true', FAMILIES => [{NAME => 'info', BLOOMFILTER => 'NONE', VERSIONS => '10', IN_MEMORY => 'false', TTL => '2147483647', COMPRESSION => 'NONE', MIN_VERSIONS => '0', BLOCKCACHE => 'false', BLOCKSIZE => '8192', REPLICATION_SCOPE => '0'}]} RootDir = file:/tmp/hbase-woohyeok.kim/hbase Table name == -ROOT-
+2018-08-29 19:50:17,095 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: HLog configuration: blocksize=32 MB, rollsize=30.4 MB, enabled=true, optionallogflushinternal=1000ms
+2018-08-29 19:50:17,115 DEBUG org.apache.hadoop.hbase.regionserver.wal.SequenceFileLogWriter: using new createWriter -- HADOOP-6840
+2018-08-29 19:50:17,116 DEBUG org.apache.hadoop.hbase.regionserver.wal.SequenceFileLogWriter: Path=file:/tmp/hbase-woohyeok.kim/hbase/-ROOT-/70236052/.logs/hlog.1535539817096, syncFs=true, hflush=false
+2018-08-29 19:50:17,116 INFO org.apache.hadoop.hbase.regionserver.wal.HLog:  for /tmp/hbase-woohyeok.kim/hbase/-ROOT-/70236052/.logs/hlog.1535539817096
+2018-08-29 19:50:17,116 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: getNumCurrentReplicas--HDFS-826 not available; hdfs_out=org.apache.hadoop.fs.FSDataOutputStream@6e70fea3, exception=org.apache.hadoop.fs.ChecksumFileSystem$ChecksumFSOutputSummer.getNumCurrentReplicas()
+2018-08-29 19:50:17,140 INFO org.apache.hadoop.hbase.regionserver.HRegion: Setting up tabledescriptor config now ...
+2018-08-29 19:50:17,140 DEBUG org.apache.hadoop.hbase.regionserver.HRegion: Instantiated -ROOT-,,0.70236052
+2018-08-29 19:50:17,180 INFO org.apache.hadoop.hbase.regionserver.HRegion: Onlined -ROOT-,,0.70236052; next sequenceid=1
+2018-08-29 19:50:17,180 INFO org.apache.hadoop.hbase.regionserver.HRegion: creating HRegion .META. HTD == {NAME => '.META.', IS_META => 'true', FAMILIES => [{NAME => 'info', BLOOMFILTER => 'NONE', VERSIONS => '10', IN_MEMORY => 'false', TTL => '2147483647', COMPRESSION => 'NONE', MIN_VERSIONS => '0', BLOCKCACHE => 'false', BLOCKSIZE => '8192', REPLICATION_SCOPE => '0'}]} RootDir = file:/tmp/hbase-woohyeok.kim/hbase Table name == .META.
+2018-08-29 19:50:17,181 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: HLog configuration: blocksize=32 MB, rollsize=30.4 MB, enabled=true, optionallogflushinternal=1000ms
+2018-08-29 19:50:17,183 DEBUG org.apache.hadoop.hbase.regionserver.wal.SequenceFileLogWriter: using new createWriter -- HADOOP-6840
+2018-08-29 19:50:17,183 DEBUG org.apache.hadoop.hbase.regionserver.wal.SequenceFileLogWriter: Path=file:/tmp/hbase-woohyeok.kim/hbase/.META./1028785192/.logs/hlog.1535539817181, syncFs=true, hflush=false
+2018-08-29 19:50:17,183 INFO org.apache.hadoop.hbase.regionserver.wal.HLog:  for /tmp/hbase-woohyeok.kim/hbase/.META./1028785192/.logs/hlog.1535539817181
+2018-08-29 19:50:17,183 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: getNumCurrentReplicas--HDFS-826 not available; hdfs_out=org.apache.hadoop.fs.FSDataOutputStream@103120f5, exception=org.apache.hadoop.fs.ChecksumFileSystem$ChecksumFSOutputSummer.getNumCurrentReplicas()
+2018-08-29 19:50:17,183 INFO org.apache.hadoop.hbase.regionserver.HRegion: Setting up tabledescriptor config now ...
+2018-08-29 19:50:17,183 DEBUG org.apache.hadoop.hbase.regionserver.HRegion: Instantiated .META.,,1.1028785192
+2018-08-29 19:50:17,186 INFO org.apache.hadoop.hbase.regionserver.HRegion: Onlined .META.,,1.1028785192; next sequenceid=1
+2018-08-29 19:50:17,192 DEBUG org.apache.hadoop.hbase.regionserver.HRegion: Closing -ROOT-,,0.70236052: disabling compactions & flushes
+2018-08-29 19:50:17,192 DEBUG org.apache.hadoop.hbase.regionserver.HRegion: Updates disabled for region -ROOT-,,0.70236052
+2018-08-29 19:50:17,192 DEBUG org.apache.hadoop.hbase.regionserver.HRegion: Started memstore flush for -ROOT-,,0.70236052, current region memstore size 472.0
+2018-08-29 19:50:17,193 DEBUG org.apache.hadoop.hbase.regionserver.HRegion: Finished snapshotting -ROOT-,,0.70236052, commencing wait for mvcc, flushsize=472
+2018-08-29 19:50:17,213 DEBUG org.apache.hadoop.hbase.io.hfile.HFileWriterV2: Initialized with CacheConfig:enabled [cacheDataOnRead=false] [cacheDataOnWrite=false] [cacheIndexesOnWrite=false] [cacheBloomsOnWrite=false] [cacheEvictOnClose=false] [cacheCompressed=false]
+2018-08-29 19:50:17,227 DEBUG org.apache.hadoop.hbase.regionserver.Store: Renaming flushed file at file:/tmp/hbase-woohyeok.kim/hbase/-ROOT-/70236052/.tmp/ed19794cfa3a4473b29207b6b7c18447 to file:/tmp/hbase-woohyeok.kim/hbase/-ROOT-/70236052/info/ed19794cfa3a4473b29207b6b7c18447
+2018-08-29 19:50:17,228 INFO org.apache.hadoop.hbase.regionserver.Store: Added file:/tmp/hbase-woohyeok.kim/hbase/-ROOT-/70236052/info/ed19794cfa3a4473b29207b6b7c18447, entries=2, sequenceid=2, memsize=472.0, filesize=714.0
+2018-08-29 19:50:17,229 INFO org.apache.hadoop.hbase.regionserver.HRegion: Finished memstore flush of ~472.0/472, currentsize=0.0/0 for region -ROOT-,,0.70236052 in 37ms, sequenceid=2, compaction requested=false
+2018-08-29 19:50:17,229 DEBUG org.apache.hadoop.hbase.regionserver.Store: closed info
+2018-08-29 19:50:17,229 INFO org.apache.hadoop.hbase.regionserver.HRegion: Closed -ROOT-,,0.70236052
+2018-08-29 19:50:17,229 DEBUG org.apache.hadoop.hbase.regionserver.wal.HLog: Master:0;10.101.25.237,64096,1535539816711.logSyncer interrupted while waiting for sync requests
+2018-08-29 19:50:17,229 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Master:0;10.101.25.237,64096,1535539816711.logSyncer exiting
+2018-08-29 19:50:17,229 DEBUG org.apache.hadoop.hbase.regionserver.wal.HLog: closing hlog writer in file:/tmp/hbase-woohyeok.kim/hbase/-ROOT-/70236052/.logs
+2018-08-29 19:50:17,231 DEBUG org.apache.hadoop.hbase.regionserver.wal.HLog: Moved 1 log files to /tmp/hbase-woohyeok.kim/hbase/-ROOT-/70236052/.oldlogs
+2018-08-29 19:50:17,232 DEBUG org.apache.hadoop.hbase.regionserver.HRegion: Closing .META.,,1.1028785192: disabling compactions & flushes
+2018-08-29 19:50:17,232 DEBUG org.apache.hadoop.hbase.regionserver.HRegion: Updates disabled for region .META.,,1.1028785192
+2018-08-29 19:50:17,232 DEBUG org.apache.hadoop.hbase.regionserver.Store: closed info
+2018-08-29 19:50:17,232 INFO org.apache.hadoop.hbase.regionserver.HRegion: Closed .META.,,1.1028785192
+2018-08-29 19:50:17,232 DEBUG org.apache.hadoop.hbase.regionserver.wal.HLog: Master:0;10.101.25.237,64096,1535539816711.logSyncer interrupted while waiting for sync requests
+2018-08-29 19:50:17,232 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Master:0;10.101.25.237,64096,1535539816711.logSyncer exiting
+2018-08-29 19:50:17,232 DEBUG org.apache.hadoop.hbase.regionserver.wal.HLog: closing hlog writer in file:/tmp/hbase-woohyeok.kim/hbase/.META./1028785192/.logs
+2018-08-29 19:50:17,233 DEBUG org.apache.hadoop.hbase.regionserver.wal.HLog: Moved 1 log files to /tmp/hbase-woohyeok.kim/hbase/.META./1028785192/.oldlogs
+2018-08-29 19:50:17,250 INFO org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=localhost:2181 sessionTimeout=180000 watcher=hconnection
+2018-08-29 19:50:17,251 INFO org.apache.zookeeper.ClientCnxn: Opening socket connection to server /127.0.0.1:2181
+2018-08-29 19:50:17,251 INFO org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper: The identifier of this process is 14068@P46575
+2018-08-29 19:50:17,251 INFO org.apache.zookeeper.ClientCnxn: Socket connection established to localhost/127.0.0.1:2181, initiating session
+2018-08-29 19:50:17,252 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:64101
+2018-08-29 19:50:17,252 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /127.0.0.1:64101
+2018-08-29 19:50:17,252 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x165854e27270002 with negotiated timeout 40000 for client /127.0.0.1:64101
+2018-08-29 19:50:17,253 INFO org.apache.zookeeper.ClientCnxn: Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x165854e27270002, negotiated timeout = 40000
+2018-08-29 19:50:17,256 DEBUG org.apache.hadoop.hbase.catalog.CatalogTracker: Starting catalog tracker org.apache.hadoop.hbase.catalog.CatalogTracker@76934e0f
+2018-08-29 19:50:17,274 DEBUG org.apache.hadoop.hbase.catalog.CatalogTracker: Starting catalog tracker org.apache.hadoop.hbase.catalog.CatalogTracker@640f6a6f
+2018-08-29 19:50:17,274 INFO org.apache.hadoop.hbase.master.HMaster: Server active/primary master; 10.101.25.237,64096,1535539816711, sessionid=0x165854e27270000, cluster-up flag was=false
+2018-08-29 19:50:17,278 INFO org.apache.hadoop.hbase.regionserver.MemStoreFlusher: globalMemStoreLimit=386.7m, globalMemStoreLimitLowMark=338.4m, maxHeap=966.8m
+2018-08-29 19:50:17,280 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Runs every 2hrs, 46mins, 40sec
+2018-08-29 19:50:17,282 DEBUG org.apache.hadoop.hbase.executor.ExecutorService: Starting executor service name=MASTER_OPEN_REGION-10.101.25.237,64096,1535539816711, corePoolSize=5, maxPoolSize=5
+2018-08-29 19:50:17,282 DEBUG org.apache.hadoop.hbase.executor.ExecutorService: Starting executor service name=MASTER_CLOSE_REGION-10.101.25.237,64096,1535539816711, corePoolSize=5, maxPoolSize=5
+2018-08-29 19:50:17,282 DEBUG org.apache.hadoop.hbase.executor.ExecutorService: Starting executor service name=MASTER_SERVER_OPERATIONS-10.101.25.237,64096,1535539816711, corePoolSize=3, maxPoolSize=3
+2018-08-29 19:50:17,282 DEBUG org.apache.hadoop.hbase.executor.ExecutorService: Starting executor service name=MASTER_META_SERVER_OPERATIONS-10.101.25.237,64096,1535539816711, corePoolSize=5, maxPoolSize=5
+2018-08-29 19:50:17,283 DEBUG org.apache.hadoop.hbase.executor.ExecutorService: Starting executor service name=MASTER_TABLE_OPERATIONS-10.101.25.237,64096,1535539816711, corePoolSize=1, maxPoolSize=1
+2018-08-29 19:50:17,284 DEBUG org.apache.hadoop.hbase.master.LogCleaner: Add log cleaner in chain: org.apache.hadoop.hbase.master.TimeToLiveLogCleaner
+2018-08-29 19:50:17,289 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Attempting connect to Master server at 10.101.25.237,64096,1535539816711
+2018-08-29 19:50:17,317 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Master isn't available yet, retrying
+2018-08-29 19:50:17,336 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2018-08-29 19:50:17,387 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2018-08-29 19:50:17,394 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 60010
+2018-08-29 19:50:17,394 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 60010 webServer.getConnectors()[0].getLocalPort() returned 60010
+2018-08-29 19:50:17,394 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 60010
+2018-08-29 19:50:17,395 INFO org.mortbay.log: jetty-6.1.26
+2018-08-29 19:50:17,679 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:60010
+2018-08-29 19:50:17,679 DEBUG org.apache.hadoop.hbase.master.HMaster: Started service threads
+2018-08-29 19:50:19,183 INFO org.apache.hadoop.hbase.master.ServerManager: Waiting on regionserver(s) to checkin
+2018-08-29 19:50:20,319 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Attempting connect to Master server at 10.101.25.237,64096,1535539816711
+2018-08-29 19:50:20,322 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Connected to master at 10.101.25.237/10.101.25.237:64099
+2018-08-29 19:50:20,322 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Telling master at 10.101.25.237,64096,1535539816711 that we are up with port=64099, startcode=1535539816959
+2018-08-29 19:50:20,325 INFO org.apache.hadoop.hbase.master.ServerManager: Registering server=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:20,330 DEBUG org.apache.hadoop.hbase.regionserver.HRegionServer: Config from master: hbase.rootdir=file:///tmp/hbase-woohyeok.kim/hbase
+2018-08-29 19:50:20,330 DEBUG org.apache.hadoop.hbase.regionserver.HRegionServer: Config from master: fs.default.name=file:///
+2018-08-29 19:50:20,330 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Master passed us hostname to use. Was=10.101.25.237, Now=10.101.25.237
+2018-08-29 19:50:20,332 DEBUG org.apache.hadoop.hbase.regionserver.HRegionServer: logdir=file:/tmp/hbase-woohyeok.kim/hbase/.logs/10.101.25.237,64099,1535539816959
+2018-08-29 19:50:20,333 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: HLog configuration: blocksize=32 MB, rollsize=30.4 MB, enabled=true, optionallogflushinternal=1000ms
+2018-08-29 19:50:20,336 DEBUG org.apache.hadoop.hbase.regionserver.wal.SequenceFileLogWriter: using new createWriter -- HADOOP-6840
+2018-08-29 19:50:20,336 DEBUG org.apache.hadoop.hbase.regionserver.wal.SequenceFileLogWriter: Path=file:/tmp/hbase-woohyeok.kim/hbase/.logs/10.101.25.237,64099,1535539816959/10.101.25.237%2C64099%2C1535539816959.1535539820334, syncFs=true, hflush=false
+2018-08-29 19:50:20,337 INFO org.apache.hadoop.hbase.regionserver.wal.HLog:  for /tmp/hbase-woohyeok.kim/hbase/.logs/10.101.25.237,64099,1535539816959/10.101.25.237%2C64099%2C1535539816959.1535539820334
+2018-08-29 19:50:20,337 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: getNumCurrentReplicas--HDFS-826 not available; hdfs_out=org.apache.hadoop.fs.FSDataOutputStream@34078e59, exception=org.apache.hadoop.fs.ChecksumFileSystem$ChecksumFSOutputSummer.getNumCurrentReplicas()
+2018-08-29 19:50:20,337 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=RegionServer, sessionId=RegionServer:0;10.101.25.237,64099,1535539816959 - already initialized
+2018-08-29 19:50:20,338 INFO org.apache.hadoop.hbase.metrics: new MBeanInfo
+2018-08-29 19:50:20,338 INFO org.apache.hadoop.hbase.regionserver.metrics.RegionServerMetrics: Initialized
+2018-08-29 19:50:20,338 DEBUG org.apache.hadoop.hbase.executor.ExecutorService: Starting executor service name=RS_OPEN_REGION-10.101.25.237,64099,1535539816959, corePoolSize=3, maxPoolSize=3
+2018-08-29 19:50:20,338 DEBUG org.apache.hadoop.hbase.executor.ExecutorService: Starting executor service name=RS_OPEN_ROOT-10.101.25.237,64099,1535539816959, corePoolSize=1, maxPoolSize=1
+2018-08-29 19:50:20,338 DEBUG org.apache.hadoop.hbase.executor.ExecutorService: Starting executor service name=RS_OPEN_META-10.101.25.237,64099,1535539816959, corePoolSize=1, maxPoolSize=1
+2018-08-29 19:50:20,338 DEBUG org.apache.hadoop.hbase.executor.ExecutorService: Starting executor service name=RS_CLOSE_REGION-10.101.25.237,64099,1535539816959, corePoolSize=3, maxPoolSize=3
+2018-08-29 19:50:20,339 DEBUG org.apache.hadoop.hbase.executor.ExecutorService: Starting executor service name=RS_CLOSE_ROOT-10.101.25.237,64099,1535539816959, corePoolSize=1, maxPoolSize=1
+2018-08-29 19:50:20,339 DEBUG org.apache.hadoop.hbase.executor.ExecutorService: Starting executor service name=RS_CLOSE_META-10.101.25.237,64099,1535539816959, corePoolSize=1, maxPoolSize=1
+2018-08-29 19:50:20,348 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2018-08-29 19:50:20,349 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 60030
+2018-08-29 19:50:20,350 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 60030 webServer.getConnectors()[0].getLocalPort() returned 60030
+2018-08-29 19:50:20,350 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 60030
+2018-08-29 19:50:20,350 INFO org.mortbay.log: jetty-6.1.26
+2018-08-29 19:50:20,428 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:60030
+2018-08-29 19:50:20,428 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server Responder: starting
+2018-08-29 19:50:20,428 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server listener on 64099: starting
+2018-08-29 19:50:20,429 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 0 on 64099: starting
+2018-08-29 19:50:20,429 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 1 on 64099: starting
+2018-08-29 19:50:20,429 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 2 on 64099: starting
+2018-08-29 19:50:20,429 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 3 on 64099: starting
+2018-08-29 19:50:20,430 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 4 on 64099: starting
+2018-08-29 19:50:20,430 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 5 on 64099: starting
+2018-08-29 19:50:20,431 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 6 on 64099: starting
+2018-08-29 19:50:20,431 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 7 on 64099: starting
+2018-08-29 19:50:20,432 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 8 on 64099: starting
+2018-08-29 19:50:20,432 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 9 on 64099: starting
+2018-08-29 19:50:20,432 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 0 on 64099: starting
+2018-08-29 19:50:20,432 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 1 on 64099: starting
+2018-08-29 19:50:20,432 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 2 on 64099: starting
+2018-08-29 19:50:20,432 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 3 on 64099: starting
+2018-08-29 19:50:20,432 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 4 on 64099: starting
+2018-08-29 19:50:20,432 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 5 on 64099: starting
+2018-08-29 19:50:20,432 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 6 on 64099: starting
+2018-08-29 19:50:20,432 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 7 on 64099: starting
+2018-08-29 19:50:20,433 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 8 on 64099: starting
+2018-08-29 19:50:20,433 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 9 on 64099: starting
+2018-08-29 19:50:20,436 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Serving as 10.101.25.237,64099,1535539816959, RPC listening on 10.101.25.237/10.101.25.237:64099, sessionid=0x165854e27270001
+2018-08-29 19:50:20,436 INFO org.apache.hadoop.hbase.regionserver.SplitLogWorker: SplitLogWorker 10.101.25.237,64099,1535539816959 starting
+2018-08-29 19:50:20,687 INFO org.apache.hadoop.hbase.master.ServerManager: Waiting on regionserver(s) count to settle; currently=1
+2018-08-29 19:50:22,189 INFO org.apache.hadoop.hbase.master.ServerManager: Finished waiting for regionserver count to settle; count=1, sleptFor=4500
+2018-08-29 19:50:22,190 INFO org.apache.hadoop.hbase.master.MasterFileSystem: Log folder file:/tmp/hbase-woohyeok.kim/hbase/.logs/10.101.25.237,64099,1535539816959 belongs to an existing region server
+2018-08-29 19:50:22,190 INFO org.apache.hadoop.hbase.master.MasterFileSystem: No logs to split
+2018-08-29 19:50:23,196 INFO org.apache.hadoop.hbase.catalog.RootLocationEditor: Unsetting ROOT region location in ZooKeeper
+2018-08-29 19:50:23,198 INFO org.apache.zookeeper.server.PrepRequestProcessor: Got user-level KeeperException when processing sessionid:0x165854e27270000 type:delete cxid:0x21 zxid:0xf txntype:-1 reqpath:n/a Error Path:/hbase/root-region-server Error:KeeperErrorCode = NoNode for /hbase/root-region-server
+2018-08-29 19:50:23,200 WARN org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper: Node /hbase/root-region-server already deleted, and this is not a retry
+2018-08-29 19:50:23,201 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:64096-0x165854e27270000 Creating (or updating) unassigned node for 70236052 with OFFLINE state
+2018-08-29 19:50:23,205 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: No previous transition plan was found (or we are ignoring an existing plan) for -ROOT-,,0.70236052 so generated a random one; hri=-ROOT-,,0.70236052, src=, dest=10.101.25.237,64099,1535539816959; 1 (online=1, exclude=0) available servers
+2018-08-29 19:50:23,205 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Assigning region -ROOT-,,0.70236052 to 10.101.25.237,64099,1535539816959
+2018-08-29 19:50:23,205 DEBUG org.apache.hadoop.hbase.master.ServerManager: New connection to 10.101.25.237,64099,1535539816959
+2018-08-29 19:50:23,219 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Received request to open region: -ROOT-,,0.70236052
+2018-08-29 19:50:23,221 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: regionserver:64099-0x165854e27270001 Attempting to transition node 70236052/-ROOT- from M_ZK_REGION_OFFLINE to RS_ZK_REGION_OPENING
+2018-08-29 19:50:23,224 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: regionserver:64099-0x165854e27270001 Successfully transitioned node 70236052 from M_ZK_REGION_OFFLINE to RS_ZK_REGION_OPENING
+2018-08-29 19:50:23,225 DEBUG org.apache.hadoop.hbase.regionserver.HRegion: Opening region: {NAME => '-ROOT-,,0', STARTKEY => '', ENDKEY => '', ENCODED => 70236052,}
+2018-08-29 19:50:23,225 INFO org.apache.hadoop.hbase.regionserver.HRegion: Setting up tabledescriptor config now ...
+2018-08-29 19:50:23,227 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENING, server=10.101.25.237,64099,1535539816959, region=70236052/-ROOT-
+2018-08-29 19:50:23,228 DEBUG org.apache.hadoop.hbase.regionserver.HRegion: Instantiated -ROOT-,,0.70236052
+2018-08-29 19:50:23,239 DEBUG org.apache.hadoop.hbase.regionserver.Store: loaded file:/tmp/hbase-woohyeok.kim/hbase/-ROOT-/70236052/info/ed19794cfa3a4473b29207b6b7c18447, isReference=false, isBulkLoadResult=false, seqid=2, majorCompaction=false
+2018-08-29 19:50:23,239 INFO org.apache.hadoop.hbase.regionserver.HRegion: Onlined -ROOT-,,0.70236052; next sequenceid=3
+2018-08-29 19:50:23,239 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: regionserver:64099-0x165854e27270001 Attempting to transition node 70236052/-ROOT- from RS_ZK_REGION_OPENING to RS_ZK_REGION_OPENING
+2018-08-29 19:50:23,241 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: regionserver:64099-0x165854e27270001 Successfully transitioned node 70236052 from RS_ZK_REGION_OPENING to RS_ZK_REGION_OPENING
+2018-08-29 19:50:23,242 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Post open deploy tasks for region=-ROOT-,,0.70236052, daughter=false
+2018-08-29 19:50:23,242 INFO org.apache.hadoop.hbase.catalog.RootLocationEditor: Setting ROOT region location in ZooKeeper as 10.101.25.237,64099,1535539816959
+2018-08-29 19:50:23,243 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENING, server=10.101.25.237,64099,1535539816959, region=70236052/-ROOT-
+2018-08-29 19:50:23,246 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Done with post open deploy task for region=-ROOT-,,0.70236052, daughter=false
+2018-08-29 19:50:23,247 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: regionserver:64099-0x165854e27270001 Attempting to transition node 70236052/-ROOT- from RS_ZK_REGION_OPENING to RS_ZK_REGION_OPENED
+2018-08-29 19:50:23,249 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: regionserver:64099-0x165854e27270001 Successfully transitioned node 70236052 from RS_ZK_REGION_OPENING to RS_ZK_REGION_OPENED
+2018-08-29 19:50:23,249 DEBUG org.apache.hadoop.hbase.regionserver.handler.OpenRegionHandler: region transitioned to opened in zookeeper: {NAME => '-ROOT-,,0', STARTKEY => '', ENDKEY => '', ENCODED => 70236052,}, server: 10.101.25.237,64099,1535539816959
+2018-08-29 19:50:23,250 DEBUG org.apache.hadoop.hbase.regionserver.handler.OpenRegionHandler: Opened -ROOT-,,0.70236052 on server:10.101.25.237,64099,1535539816959
+2018-08-29 19:50:23,250 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENED, server=10.101.25.237,64099,1535539816959, region=70236052/-ROOT-
+2018-08-29 19:50:23,251 INFO org.apache.hadoop.hbase.master.handler.OpenedRegionHandler: Handling OPENED event for -ROOT-,,0.70236052 from 10.101.25.237,64099,1535539816959; deleting unassigned node
+2018-08-29 19:50:23,251 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:64096-0x165854e27270000 Deleting existing unassigned node for 70236052 that is in expected state RS_ZK_REGION_OPENED
+2018-08-29 19:50:23,253 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: The znode of region -ROOT-,,0.70236052 has been deleted.
+2018-08-29 19:50:23,254 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:64096-0x165854e27270000 Successfully deleted unassigned node for region 70236052 in expected state RS_ZK_REGION_OPENED
+2018-08-29 19:50:23,254 INFO org.apache.hadoop.hbase.master.AssignmentManager: The master has opened the region -ROOT-,,0.70236052 that was online on 10.101.25.237,64099,1535539816959
+2018-08-29 19:50:23,255 INFO org.apache.hadoop.hbase.master.HMaster: -ROOT- assigned=1, rit=false, location=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:23,265 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:23,266 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:23,330 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:23,331 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:23,387 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:23,388 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:23,444 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:23,445 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:23,501 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:23,502 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:23,558 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:23,559 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:23,616 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:23,616 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:23,670 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:23,671 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:23,728 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:23,729 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:23,787 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:23,787 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:23,840 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:23,841 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:23,897 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:23,897 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:23,950 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:23,951 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:24,007 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:24,008 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:24,064 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:24,065 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:24,120 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:24,121 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:24,177 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:24,177 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:24,233 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:24,234 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:24,290 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:24,291 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:24,293 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:24,294 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:24,295 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:64096-0x165854e27270000 Creating (or updating) unassigned node for 1028785192 with OFFLINE state
+2018-08-29 19:50:24,300 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: No previous transition plan was found (or we are ignoring an existing plan) for .META.,,1.1028785192 so generated a random one; hri=.META.,,1.1028785192, src=, dest=10.101.25.237,64099,1535539816959; 1 (online=1, exclude=0) available servers
+2018-08-29 19:50:24,300 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=M_ZK_REGION_OFFLINE, server=10.101.25.237,64096,1535539816711, region=1028785192/.META.
+2018-08-29 19:50:24,300 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Assigning region .META.,,1.1028785192 to 10.101.25.237,64099,1535539816959
+2018-08-29 19:50:24,300 DEBUG org.apache.hadoop.hbase.master.ServerManager: New connection to 10.101.25.237,64099,1535539816959
+2018-08-29 19:50:24,300 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Received request to open region: .META.,,1.1028785192
+2018-08-29 19:50:24,301 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: regionserver:64099-0x165854e27270001 Attempting to transition node 1028785192/.META. from M_ZK_REGION_OFFLINE to RS_ZK_REGION_OPENING
+2018-08-29 19:50:24,302 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:24,303 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: regionserver:64099-0x165854e27270001 Successfully transitioned node 1028785192 from M_ZK_REGION_OFFLINE to RS_ZK_REGION_OPENING
+2018-08-29 19:50:24,303 DEBUG org.apache.hadoop.hbase.regionserver.HRegion: Opening region: {NAME => '.META.,,1', STARTKEY => '', ENDKEY => '', ENCODED => 1028785192,}
+2018-08-29 19:50:24,303 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENING, server=10.101.25.237,64099,1535539816959, region=1028785192/.META.
+2018-08-29 19:50:24,303 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:24,303 INFO org.apache.hadoop.hbase.regionserver.HRegion: Setting up tabledescriptor config now ...
+2018-08-29 19:50:24,304 DEBUG org.apache.hadoop.hbase.regionserver.HRegion: Instantiated .META.,,1.1028785192
+2018-08-29 19:50:24,304 INFO org.apache.hadoop.hbase.regionserver.HRegion: Onlined .META.,,1.1028785192; next sequenceid=1
+2018-08-29 19:50:24,304 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: regionserver:64099-0x165854e27270001 Attempting to transition node 1028785192/.META. from RS_ZK_REGION_OPENING to RS_ZK_REGION_OPENING
+2018-08-29 19:50:24,306 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: regionserver:64099-0x165854e27270001 Successfully transitioned node 1028785192 from RS_ZK_REGION_OPENING to RS_ZK_REGION_OPENING
+2018-08-29 19:50:24,306 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Post open deploy tasks for region=.META.,,1.1028785192, daughter=false
+2018-08-29 19:50:24,306 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENING, server=10.101.25.237,64099,1535539816959, region=1028785192/.META.
+2018-08-29 19:50:24,309 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:24,310 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:24,317 INFO org.apache.hadoop.hbase.catalog.MetaEditor: Updated row .META.,,1.1028785192 with server=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:24,317 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Done with post open deploy task for region=.META.,,1.1028785192, daughter=false
+2018-08-29 19:50:24,317 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: regionserver:64099-0x165854e27270001 Attempting to transition node 1028785192/.META. from RS_ZK_REGION_OPENING to RS_ZK_REGION_OPENED
+2018-08-29 19:50:24,319 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: regionserver:64099-0x165854e27270001 Successfully transitioned node 1028785192 from RS_ZK_REGION_OPENING to RS_ZK_REGION_OPENED
+2018-08-29 19:50:24,319 DEBUG org.apache.hadoop.hbase.regionserver.handler.OpenRegionHandler: region transitioned to opened in zookeeper: {NAME => '.META.,,1', STARTKEY => '', ENDKEY => '', ENCODED => 1028785192,}, server: 10.101.25.237,64099,1535539816959
+2018-08-29 19:50:24,319 DEBUG org.apache.hadoop.hbase.regionserver.handler.OpenRegionHandler: Opened .META.,,1.1028785192 on server:10.101.25.237,64099,1535539816959
+2018-08-29 19:50:24,319 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENED, server=10.101.25.237,64099,1535539816959, region=1028785192/.META.
+2018-08-29 19:50:24,320 INFO org.apache.hadoop.hbase.master.handler.OpenedRegionHandler: Handling OPENED event for .META.,,1.1028785192 from 10.101.25.237,64099,1535539816959; deleting unassigned node
+2018-08-29 19:50:24,320 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:64096-0x165854e27270000 Deleting existing unassigned node for 1028785192 that is in expected state RS_ZK_REGION_OPENED
+2018-08-29 19:50:24,322 DEBUG org.apache.hadoop.hbase.catalog.CatalogTracker: Current cached META location, null, is not valid, resetting
+2018-08-29 19:50:24,322 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: The znode of region .META.,,1.1028785192 has been deleted.
+2018-08-29 19:50:24,322 INFO org.apache.hadoop.hbase.master.AssignmentManager: The master has opened the region .META.,,1.1028785192 that was online on 10.101.25.237,64099,1535539816959
+2018-08-29 19:50:24,322 DEBUG org.apache.hadoop.hbase.catalog.CatalogTracker: Current cached META location, null, is not valid, resetting
+2018-08-29 19:50:24,323 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:64096-0x165854e27270000 Successfully deleted unassigned node for region 1028785192 in expected state RS_ZK_REGION_OPENED
+2018-08-29 19:50:24,324 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:24,325 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:24,330 DEBUG org.apache.hadoop.hbase.catalog.CatalogTracker: Set new cached META location: 10.101.25.237,64099,1535539816959
+2018-08-29 19:50:24,330 INFO org.apache.hadoop.hbase.master.HMaster: .META. assigned=2, rit=false, location=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:24,335 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:24,337 DEBUG org.apache.hadoop.hbase.client.HTable$ClientScanner: Creating scanner over -ROOT- starting at key ''
+2018-08-29 19:50:24,337 DEBUG org.apache.hadoop.hbase.client.HTable$ClientScanner: Advancing internal scanner to startKey at ''
+2018-08-29 19:50:24,338 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:24,343 DEBUG org.apache.hadoop.hbase.client.HTable$ClientScanner: Finished with scanning at {NAME => '-ROOT-,,0', STARTKEY => '', ENDKEY => '', ENCODED => 70236052,}
+2018-08-29 19:50:24,343 INFO org.apache.hadoop.hbase.catalog.MetaMigrationRemovingHTD: Meta version=0; migrated=true
+2018-08-29 19:50:24,343 INFO org.apache.hadoop.hbase.catalog.MetaMigrationRemovingHTD: ROOT/Meta already up-to date with new HRI.
+2018-08-29 19:50:24,345 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Lookedup root region location, connection=org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@18f98d8a; serverName=10.101.25.237,64099,1535539816959
+2018-08-29 19:50:24,350 DEBUG org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Cached location for .META.,,1.1028785192 is 10.101.25.237:64099
+2018-08-29 19:50:24,350 DEBUG org.apache.hadoop.hbase.client.HTable$ClientScanner: Creating scanner over .META. starting at key ''
+2018-08-29 19:50:24,350 DEBUG org.apache.hadoop.hbase.client.HTable$ClientScanner: Advancing internal scanner to startKey at ''
+2018-08-29 19:50:24,353 DEBUG org.apache.hadoop.hbase.client.HTable$ClientScanner: Finished with scanning at {NAME => '.META.,,1', STARTKEY => '', ENDKEY => '', ENCODED => 1028785192,}
+2018-08-29 19:50:24,353 INFO org.apache.hadoop.hbase.master.AssignmentManager: Clean cluster startup. Assigning userregions
+2018-08-29 19:50:24,353 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:64096-0x165854e27270000 Deleting any existing unassigned nodes
+2018-08-29 19:50:24,355 DEBUG org.apache.hadoop.hbase.client.HTable$ClientScanner: Creating scanner over .META. starting at key ''
+2018-08-29 19:50:24,355 DEBUG org.apache.hadoop.hbase.client.HTable$ClientScanner: Advancing internal scanner to startKey at ''
+2018-08-29 19:50:24,357 DEBUG org.apache.hadoop.hbase.client.HTable$ClientScanner: Finished with scanning at {NAME => '.META.,,1', STARTKEY => '', ENDKEY => '', ENCODED => 1028785192,}
+2018-08-29 19:50:24,358 DEBUG org.apache.hadoop.hbase.client.HTable$ClientScanner: Creating scanner over .META. starting at key ''
+2018-08-29 19:50:24,358 DEBUG org.apache.hadoop.hbase.client.HTable$ClientScanner: Advancing internal scanner to startKey at ''
+2018-08-29 19:50:24,360 DEBUG org.apache.hadoop.hbase.client.HTable$ClientScanner: Finished with scanning at {NAME => '.META.,,1', STARTKEY => '', ENDKEY => '', ENCODED => 1028785192,}
+2018-08-29 19:50:24,361 INFO org.apache.hadoop.hbase.master.HMaster: Master has completed initialization
+2018-08-29 19:50:24,363 DEBUG org.apache.hadoop.hbase.client.HTable$ClientScanner: Creating scanner over .META. starting at key ''
+2018-08-29 19:50:24,363 DEBUG org.apache.hadoop.hbase.client.HTable$ClientScanner: Advancing internal scanner to startKey at ''
+2018-08-29 19:50:24,365 DEBUG org.apache.hadoop.hbase.client.HTable$ClientScanner: Finished with scanning at {NAME => '.META.,,1', STARTKEY => '', ENDKEY => '', ENCODED => 1028785192,}
+2018-08-29 19:50:24,365 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 0 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-08-29 19:51:49,506 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:64159
+2018-08-29 19:51:49,510 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /127.0.0.1:64159
+2018-08-29 19:51:49,512 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x165854e27270003 with negotiated timeout 40000 for client /127.0.0.1:64159
+2018-08-29 19:52:30,859 WARN org.apache.zookeeper.server.NIOServerCnxn: caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x165854e27270003, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:224)
+	at java.lang.Thread.run(Thread.java:748)
+2018-08-29 19:52:30,861 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:64159 which had sessionid 0x165854e27270003
